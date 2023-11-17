@@ -141,6 +141,24 @@
     </div>
   </section>
 
+  <!-- BLOG -->
+  <section id="blog" class="py-20 lg:py-32 flex flex-col gap-24">
+    <div class="flex flex-col gap-2 text-center">
+      <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+        Curious to <span class="poppins text-violet-400">read</span> my work?
+      </h3>
+      <a
+        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        target="_blank"
+        class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 mt-6 hover:border-violet-700 duration-200"
+      >
+        <i class="fa-solid fa-blog" />
+        <p>Read my blog</p>
+      </a>
+    </div>
+    <div class="flex flex-col gap-2 text-center" />
+  </section>
+
   <!-- About Me -->
   <section
     id="about"
@@ -240,17 +258,5 @@
       <p>Scroll to see more &rarr;</p>
     </div>
     <p class="mx-auto">So why not invest?</p>
-  </section>
-
-  <!-- BLOG -->
-  <section id="blog">
-    <div class="flex flex-col gap-2 text-center">
-      <a
-        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-        target="_blank"
-        class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"
-        ><i class="fa-solid fa-blog" />Read my blog</a
-      >
-    </div>
   </section>
 </main>

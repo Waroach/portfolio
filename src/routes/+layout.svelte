@@ -8,6 +8,7 @@
   let innerWidth = 0;
 
   function goTop() {
+    // Scroll to the top of the page
     document.body.scrollIntoView();
   }
 </script>

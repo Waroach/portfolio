@@ -3,9 +3,9 @@
 
   let tabs = [
     { name: "Projects", link: "#projects" },
-    { name: "About me", link: "#about" },
     { name: "Blog", link: "#blog" },
-    { name: "Contact Me", link: "#contact-me" },
+    { name: "About me", link: "#about" },
+    { name: "Contact Me", link: "#contact" },
   ];
 </script>
 
