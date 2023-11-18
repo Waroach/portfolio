@@ -5,9 +5,21 @@
     // icons can be found and named
     // fa-cart-shopping
     // find them here https://fontawesome.com/search?o=r&m=free
-    { name: "Smoljames Store", icon: "fa-solid fa-cart-shopping" },
-    { name: "Ultimate Todos", icon: "fa-solid fa-list-check" },
-    { name: "Pokédex", icon: "fa-solid fa-diagram-project" },
+    {
+      name: "MERNGPT",
+      icon: "fa-solid fa-brain",
+      href: "https://github.com/Waroach/MERNGPT",
+    },
+    {
+      name: "My Portfolio",
+      icon: "fa-solid fa-laptop-code",
+      href: "https://waroach.github.io/portfolio/",
+    },
+    {
+      name: "Hangman",
+      icon: "fa-solid fa-gamepad",
+      href: "https://github.com/Waroach/hangman-elm-lang",
+    },
   ];
 
   let benefits = [
@@ -109,33 +121,24 @@
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
       <Step step={steps[0]}>
         <p>
-          Smoljames Store is a a merchanising store created with <strong
-            class="text-violet-400"
-            >Next.js, Commerce.js, Stripe & Node.js + Express.js!</strong
-          > Commerce.js is a product CMS and Stripe is used for all transaction handling.
+          MERNGPT is a AI chatbot using <strong class="text-violet-400"
+            >React, Node, MongoDB, Express, and Typescript!</strong
+          > with advanced authentication. This is a secure production ready SaaS
+          application with the MERN stack.
         </p>
       </Step>
       <Step step={steps[1]}>
         <p>
-          Ultimate Todos is a Full Stack <strong class="text-violet-400"
-            >Next.js</strong
-          >,
-          <strong class="text-violet-400">Node.js + Express.js</strong>
-          & <strong class="text-violet-400">Firebase</strong> CRUD application that
-          allows a user to login, manage a tidy and efficacious todo list, and persist
-          this information across devices.
+          Brent Rankin's portfolio made using <strong class="text-violet-400"
+            >Svelte, Typescript, React</strong
+          >.
         </p>
       </Step>
       <Step step={steps[2]}>
         <p>
-          The Pokédex is a <strong class="text-violet-400"
-            >SvelteKit & TailwindCSS</strong
-          >
-          web application, hosted on
-          <strong class="text-violet-400">Netlify</strong>, that consumes and
-          caches the
-          <strong class="text-violet-400">Pokémon API</strong>
-          to display all Pokémon information. Gotta catch them all!
+          The Hangman is a game built using <strong class="text-violet-400"
+            >Elm</strong
+          >! was a fun way to learn the Elm language.
         </p>
       </Step>
     </div>
